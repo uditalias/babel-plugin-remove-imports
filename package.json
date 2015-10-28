@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-remove-imports",
+  "version": "0.0.1",
+  "description": "Babel plugin to remove unwanted `import` declarations when building packages with babel transforms.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uditalias/babel-plugin-remove-imports.git"
+  },
+  "author": "Udi Talias <udi.talias@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uditalias/babel-plugin-remove-imports/issues"
+  },
+  "homepage": "https://github.com/uditalias/babel-plugin-remove-imports#readme"
+}

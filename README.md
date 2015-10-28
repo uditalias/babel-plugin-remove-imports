@@ -5,7 +5,7 @@ Remove unwanted `import` declarations when building packages with babel transfor
 ## Installation
 
 ```sh
-$ npm install babel-plugin-remove-imports
+$ npm install -D babel-plugin-remove-imports
 ```
 
 ## Usage

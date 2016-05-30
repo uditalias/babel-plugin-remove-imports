@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-imports",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babel plugin to remove unwanted `import` declarations when building packages with babel transforms.",
   "main": "index.js",
   "repository": {

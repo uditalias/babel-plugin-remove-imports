@@ -33,5 +33,5 @@ module.exports = function (regex) {
 
 //check whether the text (import declaration) is matches the given regex
 function isRegexExpressionTruthy(text, regex) {
-    return (regex instanceof RegExp) ? !!text.match(regex) : false;
+    return (regex instanceof RegExp) ? regex.test(text) : false;
 }

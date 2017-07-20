@@ -2,7 +2,7 @@
  *  Babel plugin to remove unwanted `import` declarations when building
  *  packages with babel transforms.
  *
- *  PLEASE USE WITH COUTION and check your RegExp expressions carefully.
+ *  PLEASE USE WITH CAUTION and check your RegExp expressions carefully.
  */
 
 module.exports = function (regex) {
@@ -31,7 +31,7 @@ module.exports = function (regex) {
     }
 };
 
-//check whether the text (import declaration) is matches the given regex
+//check whether the text (import declaration) matches the given regex
 function isRegexExpressionTruthy(text, regex) {
     return (regex instanceof RegExp) ? regex.test(text) : false;
 }
